@@ -6,7 +6,7 @@ const NavBar = () => {
     return(
     <div>
         <h1>
-            Franck Mouette D.O
+            FRANCK MOUETTE D.O
         </h1>
         <Link href={"/"}>Prendre Rendez-vous</Link> 
         <nav>
