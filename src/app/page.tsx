@@ -5,6 +5,7 @@ export default function Home(){
 
   return(
     <div>
+      <NavBar />
       <h1>
         Franck Mouette
       </h1>
