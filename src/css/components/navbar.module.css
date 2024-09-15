@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(124, 100, 76);
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  padding: 40px 20px;
+  position: fixed;
+}
+
+.navbar {
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+    padding: 14px 40px;
+}
+
+.button_container {
+  position: absolute;
+  right: 0;
+  top: 5%;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+
+}
+
+@media screen and (max-width: 640px){
+  .navbar {
+    background-color: blue;
+  }
+}

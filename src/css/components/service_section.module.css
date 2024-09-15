@@ -1,0 +1,32 @@
+.services_container {
+    background-color: darkmagenta;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px;
+}
+
+.services h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+
+.services p {
+    display: flex;
+    justify-content: center;
+}
+
+.services_wrapper {
+    background-color:crimson;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.services_cards_wrapper {
+    background-color: cornflowerblue;
+    display: flex;
+    padding: 100px 50px;
+}
