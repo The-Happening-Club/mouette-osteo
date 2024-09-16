@@ -17,7 +17,8 @@
 .content_wrapper {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 3rem;
+    padding: 200px 200px;
 }
 
 .image_container {
@@ -36,9 +37,9 @@
     font-size: 22px;
     font-weight: 200;
 }
+
 .container p {
     font-size: 18px;
     font-weight: 200;
-
-    
+    line-height: var(--line-height);
 }

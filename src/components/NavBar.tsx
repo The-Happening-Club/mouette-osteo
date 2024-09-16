@@ -14,7 +14,7 @@ const NavBar = () => {
             <PrimaryButton title="Prendre Rendez-vous"/>
         </div>
         <nav className={styles.navbar}>
-            <Link href={"/"}>dghjdjh</Link>
+            <Link href={"/"}>Accueil</Link>
             <Link href={"/franck-mouette"}>Franck Mouette</Link>
             <Link href={"/cabinet-osteopathie"}>Cabinet D&apos;Ostéopathie</Link>
             <Link href={"/questions-reponses"}>Questions/Réponses</Link>
