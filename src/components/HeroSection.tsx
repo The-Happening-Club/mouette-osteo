@@ -19,7 +19,7 @@ const HeroSection = () => {
                         Ostéopathe D.O
                     </h4>
                     <p>
-                    Diplômé en kinésithérapie et en ostéopathie depuis plus de 30 ans, j’ai ouvert en 2005 le Centre des Deux Mains.
+                    Diplômé en kinésithérapie et en ostéopathie depuis plus de 30 ans, <br />j&apos;ai ouvert en 2005 le Centre des Deux Mains.
                     </p>
                 </div>
             </div>  

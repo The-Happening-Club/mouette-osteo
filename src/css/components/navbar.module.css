@@ -2,18 +2,25 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: rgb(124, 100, 76);
+  background-color: #98785b;
   color: white;
   text-align: center;
-  font-size: 22px;
-  padding: 40px 20px;
+  gap: 2rem;
+  font-size: var(--body-font-size);
+  padding-top: 40px;
+  padding-bottom: 20px;
   position: fixed;
+}
+
+.header h1{
+  font-size: var(--h3-font-size);
+  font-weight: 200;
 }
 
 .navbar {
     color: rgb(255, 255, 255);
     font-family: Arial;
-    font-size: 14px;
+    font-size: var(--body-font-size);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -25,7 +32,7 @@
 .button_container {
   position: absolute;
   right: 0;
-  top: 5%;
+  top: 35%;
   width: 500px;
   display: flex;
   justify-content: center;

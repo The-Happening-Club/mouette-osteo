@@ -1,24 +1,30 @@
 .services_container {
-    background-color: darkmagenta;
+    background-color: #D9BFA9;
+    color: white;
     display: flex;
     flex-direction: column;
-    padding: 100px 50px;
 }
 
-.services h1 {
+.services_container h1 {
     display: flex;
+    color: black;
     justify-content: center;
-    padding-bottom: 30px;
-    font-size: 22px;
+    padding-bottom: 40px;
+    font-size: var(--h2-font-size);
+    font-weight: 200;
 }
 
-.services p {
+.services_container p {
     display: flex;
     justify-content: center;
+    text-align: center;
+    line-height: var(--line-height);
+    font-size: var(--body-font-size);
 }
 
 .services_wrapper {
-    background-color:crimson;
+    background-color:white;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,6 +33,14 @@
 
 .services_cards_wrapper {
     background-color: cornflowerblue;
+    color: white;
     display: flex;
     padding: 100px 50px;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
 }
