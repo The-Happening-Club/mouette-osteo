@@ -7,7 +7,6 @@
 .content_container {
     background-color: white;
     width: 50%;
-    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,29 +16,50 @@
 .content_wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: left;
+    align-items: left;
     gap: 3rem;
     padding: 200px 200px;
 }
 
 .image_container {
-    background-color: aquamarine;
+    background-color: white;
     width: 50%;
     overflow: hidden;
 }
 
+.image_container_border {
+    background-color: white;
+    width: 50%;
+    overflow: hidden;
+    padding: 80px 80px; 
+}
+
 .container h1 {
-    font-size: 72px;
+    text-align: left;
+    font-size: var(--h1-font-size);
     font-weight: 200;
     color: var(--header-higlight)
 }
 
 .container h4 {
-    font-size: 22px;
+    font-size: var(--h3-font-size);
     font-weight: 200;
 }
 
 .container p {
-    font-size: 18px;
+    font-size: var(--body-font-size);
     font-weight: 200;
     line-height: var(--line-height);
+}
+
+.content_wrapper h2 {
+    display: flex;
+    font-size: var(--h2-font-size);
+    text-align: center;
+    justify-content: center;
+}
+
+.content_wrapper a {
+    display: flex;
 }

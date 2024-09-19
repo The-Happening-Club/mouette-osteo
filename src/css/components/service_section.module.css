@@ -17,7 +17,6 @@
 .services_container p {
     display: flex;
     justify-content: center;
-    color: black;
     text-align: center;
     line-height: var(--line-height);
     font-size: var(--body-font-size);
@@ -38,17 +37,6 @@
     display: flex;
     padding: 100px 50px;
 }
-
-/* .services_cards_wrapper h1 {
-    color: white;
-    font-weight: 200;
-    font-size: var(--h3-font-size);
-} */
-
-/* .services_cards_wrapper p {
-    color: white;
-    font-size: var(--body-font-size);
-} */
 
 .grid_container {
     display: grid;

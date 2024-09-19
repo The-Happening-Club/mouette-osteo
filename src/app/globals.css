@@ -37,9 +37,18 @@ body {
   margin: 0;
 }
 
+h1{
+  color: var(--header-higlight);
+}
+
 a {
   color: inherit;
   text-decoration: none;
+}
+
+p {
+
+  color: black;
 }
 
 @media (prefers-color-scheme: dark) {
