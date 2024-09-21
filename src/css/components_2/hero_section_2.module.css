@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 1000px;
+    width: 100%;
+}
+
+.background_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.container h1 {
+    background-color: aquamarine;
+    color: red;
+    font-size: 72px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.container a {
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+}
